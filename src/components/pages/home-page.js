@@ -1,11 +1,13 @@
 import React from 'react';
-import ProductList from "../product-list";
+import Banner from "../banner";
+import Newsletter from "../newsletter";
 
 
 const HomePage = () => {
 	return (
 		<div className='container'>
-			<ProductList />
+			<Newsletter />
+			<Banner />
 		</div>
 	);
 };

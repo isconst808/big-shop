@@ -6,12 +6,12 @@ import './title.scss'
 const Title = ({title, classMode}) => {
 
 	function getBEMClass () {
-		let clazzName = '';
+		let className = '';
 		let arr = classMode.split(' ');
 		arr.map((word) => {
-			return clazzName += ` title_${word}`
+			return className += ` title_${word}`
 		});
-		return clazzName;
+		return className;
 	}
 
 	const className = (classMode) ? getBEMClass() : '';
@@ -21,7 +21,7 @@ const Title = ({title, classMode}) => {
 	);
 };
 
-Title.prototype = {
+Title.propTypes = {
 	title: PropTypes.string,
 	className: PropTypes.string
 };

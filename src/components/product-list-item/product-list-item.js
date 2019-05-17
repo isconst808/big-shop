@@ -1,6 +1,8 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
+import Button from '../button';
+
 import './product-list-item.scss'
 
 const ProductListItem = ({title, img, price, like, msg}) => {
@@ -33,7 +35,7 @@ const ProductListItem = ({title, img, price, like, msg}) => {
 					<p className="product-list-item__price">&#36; {price}</p>
 				</footer>
 			</div>
-			<button className='product-list-item__btn'>Add to Cart</button>
+			<Button classMode={'product-list-item__btn'}>Add to Cart</Button>
 		</div>
 	);
 };
