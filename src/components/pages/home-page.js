@@ -1,14 +1,11 @@
 import React from 'react';
-import Title from '../title';
+import ProductList from "../product-list";
+
 
 const HomePage = () => {
 	return (
 		<div className='container'>
-			<Title title="Trendy Arrivals"/>
-			<Title title="Our Brands" classMode='left'/>
-			<Title title="Our Showcase"/>
-			<Title title="Newsletter" classMode='white'/>
-			<Title title="Big Shop" classMode='little'/>
+			<ProductList />
 		</div>
 	);
 };
