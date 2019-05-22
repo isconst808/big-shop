@@ -2,13 +2,13 @@ import React from 'react';
 
 import './newsletter.scss';
 import Title from "../title";
-
-// import Button from "../button";
+import NewsletterForm from "../newsletter-form";
 
 const Newsletter = () => {
 	return (
 		<div className="newsletter">
 			<div className="container">
+
 				<div className="row">
 					<div className="col">
 						<div className="newsletter__title-block">
@@ -16,6 +16,13 @@ const Newsletter = () => {
 						</div>
 					</div>
 				</div>
+
+				<div className="row">
+					<div className="col">
+						<NewsletterForm />
+					</div>
+				</div>
+
 			</div>
 		</div>
 	);

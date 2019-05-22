@@ -1,0 +1,30 @@
+.newsletter-form {
+  width: 847px;
+  height: 71px;
+  position: relative;
+  margin: 0 auto;
+  &__input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50px;
+    padding: 0 210px 0 27px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+  &__btn {
+    width: 198px;
+    height: 60px;
+    background-color: #a165f4;
+    background-image: linear-gradient(28deg, #8c84f9 0%, #9c6cf5 100%);
+    color: #fffefe;
+    letter-spacing: 0.2px;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
