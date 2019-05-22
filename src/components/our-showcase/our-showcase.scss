@@ -1,0 +1,11 @@
+.our-showcase {
+  margin: 0 auto;
+  width: 1380px;
+  height: 1318px;
+  box-shadow: -1px 5px 48px 3px rgba(237, 235, 253, 0.75);
+  background-color: #ffffff;
+  padding: 96px;
+  &__title {
+    margin-bottom: 104px;
+  }
+}

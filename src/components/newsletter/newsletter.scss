@@ -1,4 +1,33 @@
 .newsletter {
+  padding-top: 142px;
+  width: 100%;
+  min-height: 492px;
+  background-color: #ffffff;
+  background-image: linear-gradient(45deg, #8c84f9 0%, #a165f4 100%);
+  &__title-block {
+    width: 981px;
+    height: 109px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 149px;
+    &::after {
+      content: 'Get notified';
+      position: absolute;
+      display: block;
+      opacity: 0.04;
+      color: #fefefe;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+  }
+  &__title {
+    color: #ffffff !important;
+  }
   &__btn {
     width: 198px;
     height: 60px;

@@ -1,0 +1,15 @@
+.footer-rubric {
+  max-width: 529px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 51px;
+  &__link {
+    color: #404040;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration: none;
+  }
+}

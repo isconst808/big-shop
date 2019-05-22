@@ -1,16 +1,13 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+
 import {HomePage} from '../pages';
 
+import './normalize.css'
 import './app.css'
 
 const App = () => {
 	return (
-		<Switch>
-			<Route path='/'
-						 component={HomePage}
-						 exact/>
-		</Switch>
+		<HomePage />
 	);
 };
 

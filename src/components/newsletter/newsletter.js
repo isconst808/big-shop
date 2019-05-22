@@ -1,12 +1,23 @@
 import React from 'react';
 
 import './newsletter.scss';
+import Title from "../title";
 
-import Button from "../button";
+// import Button from "../button";
 
 const Newsletter = () => {
 	return (
-		<Button classMode={'newsletter__btn'}>Submit</Button>
+		<div className="newsletter">
+			<div className="container">
+				<div className="row">
+					<div className="col">
+						<div className="newsletter__title-block">
+							<Title title={'Newsletter'} classMode={"newsletter__title"}/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
 

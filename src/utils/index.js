@@ -1,3 +1,4 @@
 import compose from './compose';
+import verifyСlassProps from './verifyСlassProps';
 
-export default compose;
+export { compose, verifyСlassProps };

@@ -1,0 +1,29 @@
+.our-showcase-filter {
+  width: 1105px;
+  height: 66px;
+  box-shadow: -1px 5px 48px 3px rgba(239, 239, 240, 0.75);
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  &__list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+  }
+  &__item {
+
+  }
+  &__link {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    text-decoration: none;
+  }
+}

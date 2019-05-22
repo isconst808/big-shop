@@ -1,14 +1,14 @@
-import React from 'react';
-import Banner from "../banner";
+import React, { Fragment } from 'react';
+import Footer from "../footer";
 import Newsletter from "../newsletter";
 
 
 const HomePage = () => {
 	return (
-		<div className='container'>
+		<Fragment>
 			<Newsletter />
-			<Banner />
-		</div>
+			<Footer />
+		</Fragment>
 	);
 };
 

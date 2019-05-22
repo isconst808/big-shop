@@ -1,12 +1,10 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 import Button from '../button';
 
 import './product-list-item.scss'
 
 const ProductListItem = ({title, img, price, like, msg}) => {
- console.log(price);
 
 	return (
 		<div className='product-list-item'>
