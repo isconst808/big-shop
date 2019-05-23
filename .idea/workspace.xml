@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40eb9c3-fdcd-4b4f-9547-ee669bd56dd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/newsletter-form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/newsletter/newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/newsletter/newsletter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/our-brands/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/our-brands/our-brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/our-brands/our-brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home-page.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,99 +18,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter/newsletter.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter/newsletter.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
-                  <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/index.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/title/title.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/title/title.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="222">
-                  <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/button/button.scss">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/home-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/our-brands/our-brands.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/our-brands/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/our-brands/our-brands.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -120,9 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/banner/banner.js" />
-        <option value="$PROJECT_DIR$/src/components/btn-group/index.js" />
-        <option value="$PROJECT_DIR$/src/components/btn-group/btn-group.js" />
         <option value="$PROJECT_DIR$/src/components/btn-group/btn-group.scss" />
         <option value="$PROJECT_DIR$/src/components/our-showcase/index.js" />
         <option value="$PROJECT_DIR$/src/components/our-showcase-filter/index.js" />
@@ -163,14 +114,17 @@
         <option value="$PROJECT_DIR$/src/components/footer-social/footer-social.js" />
         <option value="$PROJECT_DIR$/src/components/footer-social/footer-social.scss" />
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/home-page.js" />
         <option value="$PROJECT_DIR$/src/components/title/title.scss" />
-        <option value="$PROJECT_DIR$/src/components/newsletter/newsletter.scss" />
         <option value="$PROJECT_DIR$/src/components/newsletter-form/index.js" />
         <option value="$PROJECT_DIR$/src/components/newsletter/newsletter.js" />
         <option value="$PROJECT_DIR$/src/components/button/button.scss" />
-        <option value="$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss" />
         <option value="$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.js" />
+        <option value="$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss" />
+        <option value="$PROJECT_DIR$/src/components/newsletter/newsletter.scss" />
+        <option value="$PROJECT_DIR$/src/components/our-brands/index.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/home-page.js" />
+        <option value="$PROJECT_DIR$/src/components/our-brands/our-brands.js" />
+        <option value="$PROJECT_DIR$/src/components/our-brands/our-brands.scss" />
       </list>
     </option>
   </component>
@@ -217,14 +171,7 @@
               <item name="big-shop-on-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-shop-on-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-shop-on-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="newsletter-form" type="462c0819:PsiDirectoryNode" />
+              <item name="our-brands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="big-shop-on-react" type="b2602c69:ProjectViewProjectNode" />
@@ -232,13 +179,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-shop-on-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-shop-on-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="title" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="big-shop-on-react" type="b2602c69:ProjectViewProjectNode" />
@@ -254,6 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -305,12 +246,13 @@
       <workItem from="1558446685926" duration="2449000" />
       <workItem from="1558456145223" duration="4557000" />
       <workItem from="1558527507099" duration="1902000" />
-      <workItem from="1558537317241" duration="967000" />
+      <workItem from="1558537317241" duration="1164000" />
+      <workItem from="1558596297118" duration="3275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56669000" />
+    <option name="totallyTimeSpent" value="60141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -360,21 +302,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/our-showcase-filter/our-showcase.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/btn-group/btn-group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/our-showcase/our-showcase.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/fashion.js" />
     <entry file="file://$PROJECT_DIR$/src/components/furnitures.js" />
     <entry file="file://$PROJECT_DIR$/src/components/product-list/product-list.scss">
@@ -636,17 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/home-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/newsletter/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/title/title.scss">
@@ -666,15 +586,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/button/button.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/newsletter/newsletter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="185">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/newsletter/newsletter.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,19 +619,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/button/button.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/newsletter-form/newsletter-form.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/home-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
+        <state relative-caret-position="264">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/our-brands/our-brands.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/our-brands/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/our-brands/our-brands.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>

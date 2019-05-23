@@ -1,0 +1,57 @@
+.our-brands {
+  padding: 118px 0 100px;
+  &__title {
+    text-align: left;
+  }
+  &__desc {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    line-height: 34px;
+    position: relative;
+    span {
+      color: #8d83f9;
+    }
+  }
+  &__text {
+    color: #888888;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: 26px;
+  }
+
+  &__img-block {
+    position: relative;
+  }
+  &__circle-block {
+    width: 399px;
+    height: 399px;
+    position: absolute;
+    top: -10%;
+    right: 5%;
+    z-index: -1;
+  }
+  &__circle {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.discordapp.net/attachments/575413390592180235/581029278897143894/Layer_18.png);
+    background-color: rgba(141, 131, 249, .5);
+    border-radius: 50%;
+    position: relative;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 301px;
+      height: 301px;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+  }
+}
