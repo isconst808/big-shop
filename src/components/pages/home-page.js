@@ -1,15 +1,12 @@
 import React, { Fragment } from 'react';
-import Footer from "../footer";
-import Newsletter from "../newsletter";
-import OurBrands from "../our-brands";
+import Banner from "../banner";
+
 
 
 const HomePage = () => {
 	return (
 		<Fragment>
-			<OurBrands />
-			<Newsletter />
-			<Footer />
+			<Banner/>
 		</Fragment>
 	);
 };

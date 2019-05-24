@@ -1,10 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './btn-group.scss'
+import { verifyСlassProps } from "../../utils";
 
-const BtnGroup = () => {
+const BtnGroup = ({classMode}) => {
 	return (
-		<div className="btn-group">
+		<div className={`btn-group ${verifyСlassProps(classMode)}`}>
 			<button className="btn-group__search">
 				<i className="fas fa-search icon"></i>
 				Search
@@ -15,6 +17,10 @@ const BtnGroup = () => {
 			</button>
 		</div>
 	);
+};
+
+BtnGroup.propTypes = {
+	classMode: PropTypes.string
 };
 
 export default BtnGroup;
