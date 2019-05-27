@@ -3,19 +3,6 @@
   width: 1604px;
   position: relative;
   margin: 0 auto;
-  &::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #b9a5f8;
-    background-image: linear-gradient(27deg, #1100ff 0%, #aa55f3 100%);
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 29.66%);
-  }
   &__img {
     position: absolute;
     bottom: 0;

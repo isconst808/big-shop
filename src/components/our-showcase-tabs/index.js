@@ -1,3 +1,3 @@
-import OurShowcaseTabs from './our-showcase-tabs';
+import OurShowcaseFilter from './our-showcase-filter';
 
-export default OurShowcaseTabs;
+export default OurShowcaseFilter;

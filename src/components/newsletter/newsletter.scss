@@ -4,6 +4,7 @@
   min-height: 492px;
   background-color: #ffffff;
   background-image: linear-gradient(45deg, #8c84f9 0%, #a165f4 100%);
+  transform: translateY(-50px);
   &__title-block {
     width: 981px;
     height: 109px;
@@ -35,5 +36,6 @@
     background-image: linear-gradient(28deg, #8c84f9 0%, #9c6cf5 100%);
     color: #fffefe;
     letter-spacing: 0.2px;
+    cursor: pointer;
   }
 }

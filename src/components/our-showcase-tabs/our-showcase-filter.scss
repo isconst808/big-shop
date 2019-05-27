@@ -1,5 +1,4 @@
 .our-showcase-filter {
-  width: 1105px;
   height: 66px;
   box-shadow: -1px 5px 48px 3px rgba(239, 239, 240, 0.75);
   background-color: #ffffff;
@@ -7,6 +6,7 @@
   display: flex;
   align-items: center;
   padding: 0 100px;
+  margin-bottom: 55px;
   &__list {
     list-style-type: none;
     width: 100%;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './our-showcase-tabs.scss'
+import './our-showcase-filter.scss'
 
-const OurShowcaseTabs = () => {
+const OurShowcaseFilter = () => {
 	return (
 		<div className='our-showcase-filter'>
 			<ul className='our-showcase-filter__list'>
@@ -30,4 +30,4 @@ const OurShowcaseTabs = () => {
 	);
 };
 
-export default OurShowcaseTabs;
+export default OurShowcaseFilter;

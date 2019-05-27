@@ -1,13 +1,23 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Banner from "../banner";
+import TrendyArrivals from "../trendy-arrivals";
+import OurBrands from "../our-brands";
+import OurShowcase from "../our-showcase";
+import Newsletter from "../newsletter";
+import Footer from "../footer";
 
-
+import './home-page.scss';
 
 const HomePage = () => {
 	return (
-		<Fragment>
+		<section className={'home-page'}>
 			<Banner/>
-		</Fragment>
+			<TrendyArrivals />
+			<OurBrands/>
+			<OurShowcase/>
+			<Newsletter/>
+			<Footer/>
+		</section>
 	);
 };
 
