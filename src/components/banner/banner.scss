@@ -1,8 +1,9 @@
 .banner {
   height: 1052px;
-  width: 1604px;
   position: relative;
   margin: 0 auto;
+  max-width: 1604px;
+  width: 100%;
   &__img {
     position: absolute;
     bottom: 0;
@@ -58,6 +59,45 @@
       color: #7048e2;
       font-size: 18px;
       margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    &__title {
+      font-size: 95px;
+    }
+    &__discount {
+      font-size: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    &__title {
+      font-size: 80px;
+    }
+    &__discount {
+      font-size: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    &__container {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+  .banner {
+    &__title {
+      font-size: 70px;
+      line-height: 90px;
     }
   }
 }

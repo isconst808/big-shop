@@ -1,5 +1,6 @@
 .home-page {
   position: relative;
+  overflow: hidden;
   &::after {
     content: '';
     display: block;
@@ -11,6 +12,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: polygon(100% 0, 0 0, 100% 25%);
+    clip-path: polygon(0 0, 100% 0, 100% 22%, 0 2%);
+  }
+}
+
+@media screen and (max-width: 576px){
+  .home-page {
+    &::after {
+      clip-path: none;
+    }
   }
 }

@@ -7,12 +7,12 @@ import BtnGroup from "../btn-group";
 const Header = () => {
 	return (
 		<header className={'header'}>
-			<div className="container">
-				<div className="row justify-content-between">
-					<div className="col">
+			<div className="container header__container">
+				<div className="row">
+					<div className="col-12 col-md-4">
 						<Logo classProps={'header__logo'}/>
 					</div>
-					<div className="col align-self-end">
+					<div className="col-12 col-md-8">
 						<BtnGroup classMode={'header__btn-group'}/>
 					</div>
 				</div>

@@ -12,7 +12,7 @@ const Banner = () => {
 			<div className="container banner__container">
 				<Header />
 				<div className="row banner__row">
-					<div className="col-xl-6">
+					<div className="col-lg-6 col-md-7">
 						<h1 className={"banner__title"}>Summer <span>Collection</span></h1>
 						<span className={'banner__discount'}>25% <span>off</span></span>
 						<Button classMode={'banner__btn'}>Details<i className="fas fa-long-arrow-alt-right banner__btn-icon"></i></Button>
