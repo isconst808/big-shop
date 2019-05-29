@@ -8,22 +8,16 @@ import './product-list.scss'
 
 const ProductList = ({data}) => {
 
+		const bagsList = data.map((item) => {
 
-	// Временная проверка \\
+			const {id, ...itemProps} = item;
 
-	let bagsList = null;
-
-	if(typeof data !== "object") {
-		bagsList = <h3>{ data }</h3>
-	} else {
-		bagsList = data.map((item) => {
 			return (
-				<div className='col-lg-4 col-md-6 col-8' key={item.id}>
-					<ProductListItem {...item}/>
+				<div className='col-lg-4 col-md-6 col-8' key={id}>
+					<ProductListItem {...itemProps}/>
 				</div>
 			);
 		});
-	}
 
 	return (
 		<div className='product-list'>

@@ -1,31 +1,56 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
+import React, { Component } from 'react';
 
 import './our-showcase.scss'
 
+import InstaService from '../../services/instaservice';
+
 import Title from "../title";
-import OurShowcaseFilter from "../our-showcase-tabs";
+import OurShowcaseFilter from "../our-showcase-filter";
 import ProductList from "../product-list";
-import { watches, mobile, fashion, furnitures, toys, cloth } from '../our-showcase-data';
+
 import ProductBlock from "../product-block";
 
+export default class OurShowcase extends Component {
 
-const OurShowcase = () => {
+	InstaService = new InstaService();
 
-	return (
-		<ProductBlock classProps={`our-showcase`}>
-			<div className="container">
-				<Title title="Our Showcase" classMode="our-showcase__title"/>
-				<OurShowcaseFilter/>
-				<Route path={"/home/fashion"} render={() => <ProductList data={fashion}/>}/>
-				<Route path={"/home/furnitures"} render={() => <ProductList data={furnitures}/>}/>
-				<Route path={"/home"} exact render={() => <ProductList data={watches}/>}/>
-				<Route path={"/home/mobile"} render={() => <ProductList data={mobile}/>}/>
-				<Route path={"/home/cloth"} render={() => <ProductList data={cloth}/>}/>
-				<Route path={"/home/toys"} render={() => <ProductList data={toys}/>}/>
-			</div>
-		</ProductBlock>
-	);
-};
+	state = {
+	  watches: [],
+		error: false
+	};
 
-export default OurShowcase;
+	componentDidMount() {
+		this.updateWatches();
+	}
+
+	updateWatches() {
+		this.InstaService.getAllWatches()
+			.then(this.onWatchesLoaded)
+			.catch(this.onError)
+	}
+
+	onWatchesLoaded = (watches) => {
+		this.setState({
+			watches,
+			error: false
+		})
+	};
+
+	onError = (err) => {
+		this.setState({
+			error: true
+		})
+	};
+
+	render() {
+		return (
+			<ProductBlock classProps={`our-showcase`}>
+				<div className="container">
+					<Title title="Our Showcase" classMode="our-showcase__title"/>
+					<OurShowcaseFilter/>
+					<ProductList data={this.state.watches}/>
+				</div>
+			</ProductBlock>
+		);
+	}
+}

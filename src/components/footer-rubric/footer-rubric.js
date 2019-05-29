@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 
 import './footer-rubric.scss'
 
@@ -14,7 +13,7 @@ export default class FooterRubric extends Component {
 		const { linkValue } = this.state;
 		const links = linkValue.map((item, id) => {
 			return (
-				<Link to={"/"} key={id} className={'footer-rubric__link'}>{item}</Link>
+				<a href={"/"} key={id} className={'footer-rubric__link'}>{item}</a>
 			);
 		});
 

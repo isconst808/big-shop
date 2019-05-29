@@ -8,6 +8,7 @@ import Footer from "../footer";
 
 import './home-page.scss';
 
+
 const HomePage = () => {
 	return (
 		<section className={'home-page'}>
